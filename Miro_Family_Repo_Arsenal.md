@@ -85,6 +85,7 @@
 | FinRL / FinRL-X | **Install Later** | Revenue Path | RL trading, FinGPT (financial LLMs) |
 | AutoGluon | **High Priority** | Revenue Path | AWS AutoML, 3 lines to production model, time series |
 | Predikit | **High Priority** | Revenue Path | ML model to LLM tool bridge (scikit-learn/XGBoost to OpenAI function) |
+| AutoHedge | **High Priority** | Revenue Path | Autonomous agent hedge fund (swarms_corp): Director/Quant/Risk/Execution agents, risk-first, structured JSON. MIT, 4.1K stars. Solana-native = crypto revenue lane; OpenAI API dep to swap. PAPER-TRADE first, verify hype, small capital only. Added 2026-08-08 |
 
 ---
 
