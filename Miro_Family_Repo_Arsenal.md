@@ -94,6 +94,7 @@
 | LibreChat | **Install Later** | Infrastructure | Self-hosted ChatGPT alternative, agents, MCP, code interpreter |
 | Dify | **Install Later** | Infrastructure | Visual AI app builder, RAG, observability, Linux Foundation |
 | BrowserOS / BrowserClaw | **Reference** | Infrastructure | AI browser for agents, MCP server, session replay |
+| pkgx | **Install Later** | Infrastructure | "Run anything" — 4MiB Rust binary, ephemeral per-version toolchains (pkgx node@14), zero system pollution. Apache-2.0, 9.9K stars. Use for per-project toolchains + sandboxed jobs; apt/venv stays baseline. Old tea.xyz lineage. Added 2026-08-08 |
 
 ---
 
