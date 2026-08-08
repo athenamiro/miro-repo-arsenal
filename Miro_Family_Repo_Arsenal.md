@@ -98,6 +98,7 @@
 | Dify | **Install Later** | Infrastructure | Visual AI app builder, RAG, observability, Linux Foundation |
 | Onyx | **High Priority** | Revenue Path | Open-source AI application layer (ex-Danswer): agentic RAG, deep-research (leaderboard top Feb 2026), custom agents, MCP, SearXNG support (we run it), 50+ connectors, self-hosted. MIT, 31.5K stars. Client knowledge-assistant deployments + our own research engine. Added 2026-08-08 |
 | Keycloak | **High Priority** | Revenue Path, Infrastructure | IAM/SSO industry standard: OIDC, OAuth2, SAML, MFA, realms, user federation. CNCF project, Apache-2.0, 36K stars. Client-facing identity layer; heavyweight (Java/Quarkus) — client projects, not small internal tools. Added 2026-08-08 |
+| authentik | **High Priority** | Infrastructure | Modern self-hosted IdP (Python/Django): OIDC, SAML, LDAP, RADIUS native, flow/blueprint engine, lighter ops. AGPL-3.0 (fine internal, complicated for client shipping) → our internal SSO choice; Keycloak stays the client-deployment choice (Apache-2.0). Added 2026-08-08 |
 | BrowserOS / BrowserClaw | **Reference** | Infrastructure | AI browser for agents, MCP server, session replay |
 | pkgx | **Install Later** | Infrastructure | "Run anything" — 4MiB Rust binary, ephemeral per-version toolchains (pkgx node@14), zero system pollution. Apache-2.0, 9.9K stars. Use for per-project toolchains + sandboxed jobs; apt/venv stays baseline. Old tea.xyz lineage. Added 2026-08-08 |
 
