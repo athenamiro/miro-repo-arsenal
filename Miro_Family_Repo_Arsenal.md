@@ -110,6 +110,7 @@
 | Fable Method | **High Priority** | Infrastructure | Verified agent workflow: Think-Act-Prove-Grow |
 | reverse-skill | **Reference** | Revenue Path | Cybersecurity skill router, great routing architecture |
 | PixelRAG | **High Priority** | Revenue Path | Visual RAG: screenshots beat text for retrieval, 8.28M Wikipedia |
+| Chandra OCR 2 | **High Priority** | Revenue Path | SOTA document intelligence: PDFs/images → structured MD/HTML/JSON with layout, tables, forms, handwriting, 90+ langs. Apache-2.0 code but ⚠️ model = OpenRAIL-M + commercial self-hosting needs Datalab license — free for internal, budget license/API for client services. Verify Farsi before promising. vLLM-serveable. Added 2026-08-08 |
 | M-flow | **High Priority** | Revenue Path, Infrastructure | Bio-inspired cognitive memory engine — Graph RAG that scores evidence paths (Cone Graph: Episode→Facet→FacetPoint→Entity). Apache-2.0, 4.4K stars, 963 tests. NOT MLflow/MFlow — third name in the family. Spike before betting: self-reported benchmarks. Added 2026-08-08 |
 | agentmemory (rohitg00) | **Reference** | - | Rebuilt from scratch Feb 2026 (TS, iii engine): persistent memory for coding agents, 26.7K stars, Hermes-compatible. Same name as the Python lib we DROPPED at provider selection — decision stands: Mnemosyne/holographic is our memory layer. Study its confidence-scoring/lifecycle/hybrid-search design only. Added 2026-08-08 |
 | AutoML List | **Reference** | - | Curated AutoML tools index |
