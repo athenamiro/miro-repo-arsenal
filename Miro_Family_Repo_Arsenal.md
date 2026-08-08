@@ -93,6 +93,7 @@
 | CodeBurn | **Install Later** | Revenue Path | Track AI coding spend across 36 tools, local-first |
 | LibreChat | **Install Later** | Infrastructure | Self-hosted ChatGPT alternative, agents, MCP, code interpreter |
 | Dify | **Install Later** | Infrastructure | Visual AI app builder, RAG, observability, Linux Foundation |
+| Keycloak | **High Priority** | Revenue Path, Infrastructure | IAM/SSO industry standard: OIDC, OAuth2, SAML, MFA, realms, user federation. CNCF project, Apache-2.0, 36K stars. Client-facing identity layer; heavyweight (Java/Quarkus) — client projects, not small internal tools. Added 2026-08-08 |
 | BrowserOS / BrowserClaw | **Reference** | Infrastructure | AI browser for agents, MCP server, session replay |
 | pkgx | **Install Later** | Infrastructure | "Run anything" — 4MiB Rust binary, ephemeral per-version toolchains (pkgx node@14), zero system pollution. Apache-2.0, 9.9K stars. Use for per-project toolchains + sandboxed jobs; apt/venv stays baseline. Old tea.xyz lineage. Added 2026-08-08 |
 
