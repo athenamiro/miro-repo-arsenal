@@ -95,6 +95,7 @@
 | Outlines | **High Priority** | Infrastructure | Structured generation - guarantees valid JSON |
 | CodeBurn | **Install Later** | Revenue Path | Track AI coding spend across 36 tools, local-first |
 | LibreChat | **Install Later** | Infrastructure | Self-hosted ChatGPT alternative, agents, MCP, code interpreter |
+| Kiro | **Reference** | - | Agentic IDE + CLI (spec-driven dev, hooks, MCP). ⚠️ NO LICENSE declared — legally unusable for adoption. Category already owned: GapCode/Claude Code/Codex/OpenCode + GSD covers specs. Watch-only for client demos. Added 2026-08-08 |
 | Dify | **Install Later** | Infrastructure | Visual AI app builder, RAG, observability, Linux Foundation |
 | Onyx | **High Priority** | Revenue Path | Open-source AI application layer (ex-Danswer): agentic RAG, deep-research (leaderboard top Feb 2026), custom agents, MCP, SearXNG support (we run it), 50+ connectors, self-hosted. MIT, 31.5K stars. Client knowledge-assistant deployments + our own research engine. Added 2026-08-08 |
 | Keycloak | **High Priority** | Revenue Path, Infrastructure | IAM/SSO industry standard: OIDC, OAuth2, SAML, MFA, realms, user federation. CNCF project, Apache-2.0, 36K stars. Client-facing identity layer; heavyweight (Java/Quarkus) — client projects, not small internal tools. Added 2026-08-08 |
