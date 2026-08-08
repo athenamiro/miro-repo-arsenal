@@ -68,6 +68,7 @@
 | Voicebox | **High Priority** | Revenue Path, Infrastructure | Local TTS/STT, MCP server, 7 engines, 23 languages, Docker |
 | OmniVoice Studio | **High Priority** | Revenue Path | 646 languages, video dubbing, voice design, desktop |
 | Open Notebook | **High Priority** | Revenue Path | Self-hosted NotebookLM, RAG + podcast generation, LM Studio |
+| Voice-Pro | **High Priority** | Revenue Path | All-in-one voice studio (Gradio): zero-shot voice cloning (E2/F5, CosyVoice), TTS, Whisper STT, Demucs isolation, YouTube pipeline, multilingual dubbing — open ElevenLabs alt. GPL-3.0 (copyleft: check before distributing builds), Windows/CUDA-first → host on .100 GPU box. Added 2026-08-08 |
 | Open Higgsfield AI | **Install Later** | Revenue Path | AI video generation, content creation pipeline |
 
 ---
