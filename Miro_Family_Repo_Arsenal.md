@@ -110,6 +110,7 @@
 | reverse-skill | **Reference** | Revenue Path | Cybersecurity skill router, great routing architecture |
 | PixelRAG | **High Priority** | Revenue Path | Visual RAG: screenshots beat text for retrieval, 8.28M Wikipedia |
 | M-flow | **High Priority** | Revenue Path, Infrastructure | Bio-inspired cognitive memory engine — Graph RAG that scores evidence paths (Cone Graph: Episode→Facet→FacetPoint→Entity). Apache-2.0, 4.4K stars, 963 tests. NOT MLflow/MFlow — third name in the family. Spike before betting: self-reported benchmarks. Added 2026-08-08 |
+| agentmemory (rohitg00) | **Reference** | - | Rebuilt from scratch Feb 2026 (TS, iii engine): persistent memory for coding agents, 26.7K stars, Hermes-compatible. Same name as the Python lib we DROPPED at provider selection — decision stands: Mnemosyne/holographic is our memory layer. Study its confidence-scoring/lifecycle/hybrid-search design only. Added 2026-08-08 |
 | AutoML List | **Reference** | - | Curated AutoML tools index |
 | FingerprintJS | **Reference** | Revenue Path | Browser fingerprinting - understand to evade for scraping |
 | TencentDB Agent Memory | **High Priority** | Revenue Path, Infrastructure | Team-level agent memory hub: L0-L3 layered memory (Conv→Atom→Scenario→Persona), symbolic Mermaid offload (−61% tokens), skills/LLM-wiki/code-graph extraction. MIT, 18K stars/4mo, NATIVE Hermes plugin, default backend local SQLite+sqlite-vec (Constitution-safe). Study architecture → sandbox test → family adoption. Added 2026-08-08 |
