@@ -41,6 +41,7 @@
 | Crawl4AI | **High Priority** | Revenue Path | LLM-friendly web crawler, clean markdown, Docker API |
 | book-to-skill | **High Priority** | Revenue Path | PDF/EPUB to SKILL.md in minutes, automates our manual work |
 | SkillOpt | **High Priority** | Infrastructure | MS Research: optimizes SKILL.md via eval loops, +23.5 pts |
+| LoopX | **High Priority** | Infrastructure | Loop-engineering state kernel: durable objectives/gates/todos/evidence/quota across agent runs; quota-aware auto-wake, verifiable handoffs, human-judgment gate, local-first. MIT, 3.5K stars/2.5mo, agent-agnostic. Completes our loop-engineering patterns. Sandbox before trusting family loops. Added 2026-08-08 |
 | awesome-llm-apps | **Reference** | Revenue Path | 100+ working agent apps, Apache 2.0, weekly updates |
 | Optim-Agent | **Reference** | Revenue Path | Agent hyperparameter optimizer + 1000+ skill collection |
 
