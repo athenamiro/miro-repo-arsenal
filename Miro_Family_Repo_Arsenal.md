@@ -104,6 +104,7 @@
 | Fable Method | **High Priority** | Infrastructure | Verified agent workflow: Think-Act-Prove-Grow |
 | reverse-skill | **Reference** | Revenue Path | Cybersecurity skill router, great routing architecture |
 | PixelRAG | **High Priority** | Revenue Path | Visual RAG: screenshots beat text for retrieval, 8.28M Wikipedia |
+| M-flow | **High Priority** | Revenue Path, Infrastructure | Bio-inspired cognitive memory engine — Graph RAG that scores evidence paths (Cone Graph: Episode→Facet→FacetPoint→Entity). Apache-2.0, 4.4K stars, 963 tests. NOT MLflow/MFlow — third name in the family. Spike before betting: self-reported benchmarks. Added 2026-08-08 |
 | AutoML List | **Reference** | - | Curated AutoML tools index |
 | FingerprintJS | **Reference** | Revenue Path | Browser fingerprinting - understand to evade for scraping |
 | LM Studio MCP Stack | **Deployed** | Infrastructure | Already running on .100 GPU box, bridges to Hermes |
