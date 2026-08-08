@@ -44,6 +44,7 @@
 | SkillOpt | **High Priority** | Infrastructure | MS Research: optimizes SKILL.md via eval loops, +23.5 pts |
 | LoopX | **High Priority** | Infrastructure | Loop-engineering state kernel: durable objectives/gates/todos/evidence/quota across agent runs; quota-aware auto-wake, verifiable handoffs, human-judgment gate, local-first. MIT, 3.5K stars/2.5mo, agent-agnostic. Completes our loop-engineering patterns. Sandbox before trusting family loops. Added 2026-08-08 |
 | awesome-llm-apps | **Reference** | Revenue Path | 100+ working agent apps, Apache 2.0, weekly updates |
+| OpenWork | **Reference** | - | Agent capability sharing (skills/MCPs/services across agents/teammates) — Claude Cowork alt, 21.5K stars. MIT core + Fair Source /ee. ⚠️ Sharing runs through THEIR remote cloud MCP → Constitution conflict; we already own this problem (arsenal flow + Library + relay). Re-review if self-hosted mode appears. Added 2026-08-08 |
 | Optim-Agent | **Reference** | Revenue Path | Agent hyperparameter optimizer + 1000+ skill collection |
 
 ---
