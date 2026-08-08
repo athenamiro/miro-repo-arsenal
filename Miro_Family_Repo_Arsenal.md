@@ -71,6 +71,7 @@
 | Open Notebook | **High Priority** | Revenue Path | Self-hosted NotebookLM, RAG + podcast generation, LM Studio |
 | Voice-Pro | **High Priority** | Revenue Path | All-in-one voice studio (Gradio): zero-shot voice cloning (E2/F5, CosyVoice), TTS, Whisper STT, Demucs isolation, YouTube pipeline, multilingual dubbing — open ElevenLabs alt. GPL-3.0 (copyleft: check before distributing builds), Windows/CUDA-first → host on .100 GPU box. Added 2026-08-08 |
 | Open Higgsfield AI | **Install Later** | Revenue Path | AI video generation, content creation pipeline |
+| Tesana | **Install Later** | Revenue Path | SaaS AI Game Maker: text → playable game on Godot with owned source. NOT self-hostable (first service entry). Client game prototyping + own portfolio games. Vet generated code before delivery; verify pricing on demand. Added 2026-08-08 |
 
 ---
 
