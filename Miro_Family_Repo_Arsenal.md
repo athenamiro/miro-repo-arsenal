@@ -25,6 +25,7 @@
 | vLLM | **Install Later** | Infrastructure | PagedAttention, high-throughput — when we serve models to clients |
 | Headroom | **High Priority** | Revenue Path | 60-95% token compression, stacks on OmniRoute, MCP server |
 | GPTCache | **High Priority** | Revenue Path | Semantic cache, 10x cost / 100x speed, vector similarity |
+| MLflow | **High Priority** | Revenue Path, Infrastructure | ML lifecycle backbone: experiment tracking, model registry, serving, LLM tracing/evals, prompt registry, AI gateway. Apache-2.0, 27K stars, 30M+ dl/mo. Pairs with AutoGluon/Predikit/Qlib. Added 2026-08-08 |
 | LLMLingua | **Reference** | Revenue Path | Prompt compression up to 20x, Microsoft Research |
 
 ---
