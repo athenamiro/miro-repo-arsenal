@@ -106,6 +106,25 @@
 | authentik | **High Priority** | Infrastructure | Modern self-hosted IdP (Python/Django): OIDC, SAML, LDAP, RADIUS native, flow/blueprint engine, lighter ops. AGPL-3.0 (fine internal, complicated for client shipping) → our internal SSO choice; Keycloak stays the client-deployment choice (Apache-2.0). Added 2026-08-08 |
 | BrowserOS / BrowserClaw | **Reference** | Infrastructure | AI browser for agents, MCP server, session replay |
 | pkgx | **Install Later** | Infrastructure | "Run anything" — 4MiB Rust binary, ephemeral per-version toolchains (pkgx node@14), zero system pollution. Apache-2.0, 9.9K stars. Use for per-project toolchains + sandboxed jobs; apt/venv stays baseline. Old tea.xyz lineage. Added 2026-08-08 |
+| CubeSandbox | **High Priority** | Infrastructure | Tencent's instant concurrent secure sandbox for AI agents (11K stars) — code-exec isolation for agent workflows |
+| TestSprite CLI | **High Priority** | Infrastructure | AI-powered automated testing from terminal (Apache-2.0, 2.8K stars) — matches Amir's automated-testing preference |
+| mysteriumnetwork/node | **Install Later** | Infrastructure | Decentralized VPN (dVPN) — crypto-payable exit diversity, GPL-3.0; complements xray/WG egress |
+| open-connector | **Reference** | Infrastructure | Auth gateway: 1000+ SaaS providers to AI agents via SDK/CLI/MCP (Apache-2.0) — cloud SaaS coupling, watch |
+| Standard tooling (prettier 52K, eslint 27K, GitLens 9.9K, error-lens) | **Reference** | - | Industry-standard code formatting/linting/VSCode git+error tooling — already in our dev workflow |
+
+---
+
+## SECURITY & OSINT
+
+| Repo | Verdict | Tags | Why |
+|---|---|---|---|
+| user-scanner | **High Priority** | Revenue Path | Email/username OSINT suite (MIT, 3K stars) — deep extraction from single email; fits our research skills |
+| Mr.Holmes | **High Priority** | Revenue Path | Complete OSINT tool (GPL-3.0, 4K stars) — investigation suite for research work |
+| flare-redact | **Reference** | Infrastructure | Zero-dep TS secret/PII redaction for SDKs/logs/prompts (MIT) — egress hygiene for our agents |
+| GhidraGPT | **Reference** | - | LLM + Ghidra AI-enhanced reverse engineering (Apache-2.0) |
+| PentesterFlow/agent | **Reference** | - | Agentic offensive-security CLI (Apache-2.0) — AUTHORIZED audits only |
+| BruteForceAI | **Reference** | - | LLM-powered login brute-force (⚠️ no license) — only against systems we own, authorized tests |
+| Android-PIN-Bruteforce | **Reference** | - | Lockscreen PIN bruteforce (⚠️ no license) — own-device recovery only |
 
 ---
 
@@ -121,6 +140,10 @@
 | M-flow | **High Priority** | Revenue Path, Infrastructure | Bio-inspired cognitive memory engine — Graph RAG that scores evidence paths (Cone Graph: Episode→Facet→FacetPoint→Entity). Apache-2.0, 4.4K stars, 963 tests. NOT MLflow/MFlow — third name in the family. Spike before betting: self-reported benchmarks. Added 2026-08-08 |
 | agentmemory (rohitg00) | **Reference** | - | Rebuilt from scratch Feb 2026 (TS, iii engine): persistent memory for coding agents, 26.7K stars, Hermes-compatible. Same name as the Python lib we DROPPED at provider selection — decision stands: Mnemosyne/holographic is our memory layer. Study its confidence-scoring/lifecycle/hybrid-search design only. Added 2026-08-08 |
 | AutoML List | **Reference** | - | Curated AutoML tools index |
+| NVIDIA personaplex | **Reference** | - | NVIDIA persona engine (MIT, 10.3K stars) — look deeper for sister-persona architecture |
+| simonwillison.net | **Reference** | - | Simon Willison's blog — top-tier AI engineering learning source for our SDE loop |
+| ai-sdk.dev playground | **Reference** | - | Vercel AI SDK playground — AI SDK reference/testing |
+| some_claude_skills | **Reference** | - | Personal Claude skills collection (MIT) — skill-curation ideas |
 | FingerprintJS | **Reference** | Revenue Path | Browser fingerprinting - understand to evade for scraping |
 | TencentDB Agent Memory | **High Priority** | Revenue Path, Infrastructure | Team-level agent memory hub: L0-L3 layered memory (Conv→Atom→Scenario→Persona), symbolic Mermaid offload (−61% tokens), skills/LLM-wiki/code-graph extraction. MIT, 18K stars/4mo, NATIVE Hermes plugin, default backend local SQLite+sqlite-vec (Constitution-safe). Study architecture → sandbox test → family adoption. Added 2026-08-08 |
 | LM Studio MCP Stack | **Deployed** | Infrastructure | Already running on .100 GPU box, bridges to Hermes |
