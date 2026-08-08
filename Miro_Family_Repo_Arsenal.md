@@ -27,6 +27,7 @@
 | GPTCache | **High Priority** | Revenue Path | Semantic cache, 10x cost / 100x speed, vector similarity |
 | MLflow | **High Priority** | Revenue Path, Infrastructure | ML lifecycle backbone: experiment tracking, model registry, serving, LLM tracing/evals, prompt registry, AI gateway. Apache-2.0, 27K stars, 30M+ dl/mo. Pairs with AutoGluon/Predikit/Qlib. Added 2026-08-08 |
 | LLMLingua | **Reference** | Revenue Path | Prompt compression up to 20x, Microsoft Research |
+| MFlow | **Reference** | - | Haskell web framework (continuation-based). ⚠️ NOT related to MLflow — name collision only. Dormant since 2024, unlicensed. Added 2026-08-08 |
 
 ---
 
