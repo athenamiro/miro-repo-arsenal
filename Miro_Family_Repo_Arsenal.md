@@ -57,6 +57,7 @@
 | GSAP Skills | **High Priority** | Revenue Path | Animation library skills, free after Webflow acquisition |
 | Motion Design Skill | **High Priority** | Revenue Path | Animation principles (timing, easing, choreography) |
 | OfficeCLI | **High Priority** | Revenue Path | Word/Excel/PPT from AI, HTML/PNG render for visual QA |
+| AppFlowy | **High Priority** | Revenue Path | Leading open-source Notion alternative (75K stars): projects, wikis, teams, kanban, docs, AI workspace. Flutter+Rust, AGPL-3.0. Client deployments: "your data on your server" (sanctions-proof); family shared-workspace candidate (complements Obsidian). AI features external by default — keep off for local-first. Added 2026-08-08 |
 | Magic Resume | **Install Later** | Revenue Path | Resume builder, pairs with CareerOps |
 | WebToApp | **Install Later** | Revenue Path | Android APK from web, on-device — upsell for clients |
 
