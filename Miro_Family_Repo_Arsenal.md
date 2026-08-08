@@ -23,6 +23,7 @@
 | OmniRoute | **Deploy Now** | Revenue Path, Infrastructure | 250 providers, 90+ free, 1.6B tokens/mo, MCP (94 tools), compression |
 | LiteLLM | **High Priority** | Infrastructure | Industry standard, 100+ LLMs, enterprise guardrails, Stripe/Netflix |
 | vLLM | **Install Later** | Infrastructure | PagedAttention, high-throughput — when we serve models to clients |
+| DFlash | **Install Later** | Infrastructure | Block-diffusion speculative decoding — 2-3x faster LLM inference. MIT, 5.6K stars, vLLM core support, drafts for Qwen3.5/3.6, gemma-4, gpt-oss; DeepSeek-V4 drafts coming soon. Pair with vLLM trigger: when we serve locally. Needs extra VRAM. Added 2026-08-08 |
 | Headroom | **High Priority** | Revenue Path | 60-95% token compression, stacks on OmniRoute, MCP server |
 | GPTCache | **High Priority** | Revenue Path | Semantic cache, 10x cost / 100x speed, vector similarity |
 | MLflow | **High Priority** | Revenue Path, Infrastructure | ML lifecycle backbone: experiment tracking, model registry, serving, LLM tracing/evals, prompt registry, AI gateway. Apache-2.0, 27K stars, 30M+ dl/mo. Pairs with AutoGluon/Predikit/Qlib. Added 2026-08-08 |
