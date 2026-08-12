@@ -131,47 +131,93 @@
 ## RESEARCH & SPECIALIZED
 
 | Repo | Verdict | Tags | Why |
+|
+## BATCH REVIEW — 2026-08-12 (Amir's hand-fed batch, 41 items)
+
+### VOICE & MEDIA
+
+| Repo | Verdict | Tags | Why |
 |---|---|---|---|
-| Fable Method | **High Priority** | Infrastructure | Verified agent workflow: Think-Act-Prove-Grow |
-| reverse-skill | **Reference** | Revenue Path | Cybersecurity skill router, great routing architecture |
-| PixelRAG | **High Priority** | Revenue Path | Visual RAG: screenshots beat text for retrieval, 8.28M Wikipedia |
-| Chandra OCR 2 | **High Priority** | Revenue Path | SOTA document intelligence: PDFs/images → structured MD/HTML/JSON with layout, tables, forms, handwriting, 90+ langs. Apache-2.0 code but ⚠️ model = OpenRAIL-M + commercial self-hosting needs Datalab license — free for internal, budget license/API for client services. Verify Farsi before promising. vLLM-serveable. Added 2026-08-08 |
-| TurboOCR | **High Priority** | Revenue Path | Fastest GPU document parser: OCR+layout+tables+formulas→MD at 200-559 img/s. C++/CUDA/TensorRT/PP-OCRv6, MIT (commercially clean), HTTP+gRPC+Docker. Volume batch service engine; Chandra = accuracy, TurboOCR = throughput. NVIDIA-only. Verify Farsi. Added 2026-08-08 |
-| M-flow | **High Priority** | Revenue Path, Infrastructure | Bio-inspired cognitive memory engine — Graph RAG that scores evidence paths (Cone Graph: Episode→Facet→FacetPoint→Entity). Apache-2.0, 4.4K stars, 963 tests. NOT MLflow/MFlow — third name in the family. Spike before betting: self-reported benchmarks. Added 2026-08-08 |
-| agentmemory (rohitg00) | **Reference** | - | Rebuilt from scratch Feb 2026 (TS, iii engine): persistent memory for coding agents, 26.7K stars, Hermes-compatible. Same name as the Python lib we DROPPED at provider selection — decision stands: Mnemosyne/holographic is our memory layer. Study its confidence-scoring/lifecycle/hybrid-search design only. Added 2026-08-08 |
-| AutoML List | **Reference** | - | Curated AutoML tools index |
-| NVIDIA personaplex | **Reference** | - | NVIDIA persona engine (MIT, 10.3K stars) — look deeper for sister-persona architecture |
-| simonwillison.net | **Reference** | - | Simon Willison's blog — top-tier AI engineering learning source for our SDE loop |
-| ai-sdk.dev playground | **Reference** | - | Vercel AI SDK playground — AI SDK reference/testing |
-| some_claude_skills | **Reference** | - | Personal Claude skills collection (MIT) — skill-curation ideas |
-| FingerprintJS | **Reference** | Revenue Path | Browser fingerprinting - understand to evade for scraping |
-| TencentDB Agent Memory | **High Priority** | Revenue Path, Infrastructure | Team-level agent memory hub: L0-L3 layered memory (Conv→Atom→Scenario→Persona), symbolic Mermaid offload (−61% tokens), skills/LLM-wiki/code-graph extraction. MIT, 18K stars/4mo, NATIVE Hermes plugin, default backend local SQLite+sqlite-vec (Constitution-safe). Study architecture → sandbox test → family adoption. Added 2026-08-08 |
-| LM Studio MCP Stack | **Deployed** | Infrastructure | Already running on .100 GPU box, bridges to Hermes |
+| Qwen3-TTS | **High Priority** | Revenue Path | Voice clone + voice design + ultra-realistic speech, 0.6B/1.7B, Apache-2.0, 12.9K★, active. Extends the Voice-Pro lane (F5-TTS validated 08-11); natural-language voice control. Deploy trigger: Voice-Pro production phase on the GPU box. Added 2026-08-12 |
+| Kimi-Audio | **Reference** | Revenue Path | Audio foundation model (understanding+generation+conversation), 7B, 4.7K★. Stale since 2025-06, license unstated. Backup voice lane vs Qwen3-TTS. Added 2026-08-12 |
+| manim | **Reference** | - | 90K★ math animation engine — already on shelf as manim-video skill. Added 2026-08-12 |
 
----
+### AGENT SKILLS & WORKFLOWS
 
-## KEY ARCHITECTURAL PATTERNS TO ADOPT
+| Repo | Verdict | Tags | Why |
+|---|---|---|---|
+| addyosmani/agent-skills | **High Priority** | Infrastructure | 86.4K★ production-grade engineering skills (spec→plan→build→verify→review→ship lifecycle, 8 slash commands), MIT. Mine for Hermes skill adaptations. Added 2026-08-12 |
+| luongnv89/asm | **High Priority** | Infrastructure | Universal skill manager CLI — install/search/audit 4,300+ agent skills across 17 tools, MIT, 832★. Streamlines our skills pipeline. Added 2026-08-12 |
+| microsoft/skill-recorder | **High Priority** | Infrastructure | Record a screen work session → Copilot CLI reconstructs intent+ordered steps → SKILL.md. Automates skill creation; analysis step needs Copilot CLI. Added 2026-08-12 |
+| google-labs-code/stitch-skills | **High Priority** | Revenue Path | Google Stitch design skills (Agent Skills open standard): design/build/utilities plugins, Apache-2.0, 8K★. Design-services lane, pairs with Design DNA. Added 2026-08-12 |
+| The-PR-Agent/pr-agent | **High Priority** | Infrastructure | 12.5K★ the original open-source PR reviewer, MIT. Our GitHub PR workflow + client dev services. Added 2026-08-12 |
+| text-to-cad | **Install Later** | Revenue Path | 13.3K★ agent skills for CAD/CAE/CAM, MIT, Python. Engineering-client services; trigger: when we take mechanical/architectural clients. Added 2026-08-12 |
+| kweinmeister/agent-design-patterns | **Reference** | - | Executable catalog of agent architecture patterns (human-in-the-loop, etc.), ADK/Gemini, 23★, Apache-2.0. Skill-ify candidates. Added 2026-08-12 |
+| antonrisch/db-skills | **Reference** | - | WIP curated DB skills for coding agents, 8★. We already have database-schema-debugging. Added 2026-08-12 |
+| mco-org/mco | **Reference** | Infrastructure | CLI-first multi-agent orchestration — run agents/models in parallel, compare raw answers, MIT, 488★. Pattern ref for our review workflows. Added 2026-08-12 |
 
-| Pattern | Source | Our Application |
-|---|---|---|
-| Routing ladder + gates | reverse-skill | Our skill dispatch + pre-tool checks |
-| Evidence chain + case mgmt | reverse-skill / Fable | Debugging workflows, audit trails |
-| Adversarial judge | Fable Method | Our code review + verification |
-| Semantic cache | GPTCache | Cost reduction for repeated queries |
-| Token compression pipeline | OmniRoute to Headroom to LLMLingua | 90%+ token reduction |
-| Visual RAG | PixelRAG | Complement Crawl4AI for visual docs |
-| Skill optimization loop | SkillOpt | Nightly skill improvement |
+### INFRASTRUCTURE & AI GATEWAY
 
----
+| Repo | Verdict | Tags | Why |
+|---|---|---|---|
+| witr | **High Priority** | Infrastructure | 21.3K★ "why is this running?" — trace process/port/container/file back to its origin chain, CLI+TUI+JSON (Go, Apache-2.0). Ops forensics for the house. Added 2026-08-12 |
+| dspy | **High Priority** | Infrastructure | 37K★ Stanford framework for programming—not prompting—LLMs; pairs with Outlines for reliable pipelines. Added 2026-08-12 |
+| alibaba/zvec | **High Priority** | Infrastructure | 15.4K★ in-process vector DB (C++, Apache-2.0, HNSW/embedded, Faiss-compatible). Client RAG services + ORACLE embeddings at scale. Added 2026-08-12 |
+| PrimeIntellect-ai/prime-agent | **Install Later** | Infrastructure | 14.5K★ self-improving RLM agent (recursive LM, prompt-as-variable, continual learning), MIT. Research-flavored, heavy. Trigger: our own agent-training phase. Added 2026-08-12 |
+| openpipe/art | **Install Later** | Infrastructure | 10.6K★ Agent Reinforcement Trainer (GRPO, on-the-job RL for agents), Apache-2.0. Needs GPU budget; trigger: when we train custom agents. Added 2026-08-12 |
+| esengine/deepseek-reasonix | **Install Later** | Infrastructure | 34K★ DeepSeek-native coding agent; Go rewrite is active line (TS legacy in maintenance), MIT. Prefix-cache stable, cost-efficient for the DeepSeek lane. Added 2026-08-12 |
+| yusing/godoxy | **Install Later** | Infrastructure | 4K★ Go reverse proxy + container orchestrator w/ WebUI for self-hosters. ⚠️ License "Other/NOASSERTION" — verify terms before deploy. Trigger: consolidate self-hosted service routing (Let's Encrypt). Added 2026-08-12 |
+| cloudflare/cloudflare-os | **Reference** | Infrastructure | 7.8K★ AI productivity workspace (agent chat UI + sandboxed gadgets + Gatekeepers guardrails), Apache-2.0. Reference for family workspace UI + guardrail patterns. Added 2026-08-12 |
+| saifyxpro/HeadlessX | **High Priority** | Revenue Path | 2.2K★ self-hosted undetected browser automation (Camoufox, 0% detection claims), web dashboard + MCP endpoint, MIT. Scraping-service lane; self-hosted fits the Constitution. Added 2026-08-12 |
+| Cloudflare KiteSurf (Browser Run) | **Reference** | Revenue Path | Managed cloud headless-browser platform. Cloud dependency vs HeadlessX self-host — decision pair for the scraping lane. Added 2026-08-12 |
+| brightdata/cli | **Install Later** | Revenue Path | 4.3K★ official Bright Data CLI — scrape/search/extract structured data from terminal (MIT, TS). Needs paid Bright Data account. Trigger: when we sell scraping services. Added 2026-08-12 |
+| AIOSAI/AIPass | **Reference** | Infrastructure | 254★ persistent agent workspace (beta, MIT) — agents that never start from zero. We already own this pattern (sessions/continuity). Added 2026-08-12 |
+| jhaizhou-ops/pinrule | **Reference** | - | 38★ pin 5-10 rules so agents don't drift in long tasks; zero-LLM hook (~50-70ms). Mirrors our identity-inject/standing-rules layer. Added 2026-08-12 |
+| AtomicBot-ai/atomic-agent | **Install Later** | Infrastructure | 1.7K★ local-first agent (GGUF/llama.cpp, browser automation, GAIA L1 69.8%, MIT). Fits local-first principle; we already run Hermes. Added 2026-08-12 |
+| huggingface/transformers | **Reference** | Infrastructure | 164K★ the model-definition framework (Apache-2.0). Baseline for every ML service lane. Added 2026-08-12 |
 
-## TAGS FOR FAMILY
+### WEB DESIGN & CONTENT SERVICES
 
-#MiroFamilyArsenal #RevenueReady #Infrastructure #AgentSkills
-#WebDesignStack #VoiceStack #FinancialStack #ResearchStack
-#DeployNow #HighPriority #Reference #RevenuePath
+| Repo | Verdict | Tags | Why |
+|---|---|---|---|
+| JCodesMore/ai-website-cloner-template | **High Priority** | Revenue Path | 31.8K★ clone any website with one command using AI agents (MIT, JS). Client web lane: capture reference → rebuild with Design DNA/GSAP stack. ⚠️ Legitimate rebuilds only (copyright). Added 2026-08-12 |
+| NameThatUI (namethatui.com) | **Reference** | Client toolkit | Describe a UI element badly → real name + API symbol + precise agent prompt. Design/QA workflow helper. Added 2026-08-12 |
 
----
+### FINANCIAL & TRADING
 
-*Updated: 2026-07-31 by Athena Miro*
+| Repo | Verdict | Tags | Why |
+|---|---|---|---|
+| paperswithbacktest/awesome-systematic-trading | **Reference** | Revenue Path | 13.2K★ curated quant stack (libraries, strategies, books, blogs). Mine for the confirmed quant lane (QuantLib/Qlib/FinRL/Vibe-Trading). Added 2026-08-12 |
+
+### DEV TOOLS & UTILITIES
+
+| Repo | Verdict | Tags | Why |
+|---|---|---|---|
+| jdx/mise | **Install Later** | Infrastructure | 32.3K★ polyglot dev tool/env var/task runner (Rust, MIT) — modern asdf. Trigger: multi-language dev standardization. Added 2026-08-12 |
+| mirarr-app/network-checker | **Reference** | Infrastructure | 796★ Iran-curated network tools (DNS hunter, edge IP checker, VLESS config modifier, CDN Xray scanner; GPL-3.0, Flutter, Android/Win/Linux). Directly relevant to our Iran xray/VLESS lane. Added 2026-08-12 |
+| kakajan/antigravity-patch | **Reference** | - | 35★ fixes Google Antigravity auth behind corporate proxies/sanctions (Iran, Syria listed), MIT, Windows. Niche dev-UX fix. Added 2026-08-12 |
+| espressif/arduino-esp32 | **Reference** | Infrastructure | 17.2K★ ESP32 Arduino core (LGPL-2.1). IoT/hardware lane — future smart-home/client products. Added 2026-08-12 |
+| hyprwm/hyprland | **Reference** | - | 37.8K★ Wayland tiling compositor (C++, BSD-3). Desktop workstation lane only. Added 2026-08-12 |
+
+### SECURITY & OSINT
+
+| Repo | Verdict | Tags | Why |
+|---|---|---|---|
+| yakhyo/uniface | **Install Later** | Revenue Path | 1.3K★ unified face analysis (detection, recognition, landmarks, anti-spoofing; MIT, Python). Identity/attendance services for offices/schools. ⚠️ Privacy-sensitive data handling. Trigger: first biometric service contract. Added 2026-08-12 |
+| Quorinex/Freebuff2API | **Skip** | - | 598★ OpenAI-compatible proxy over Freebuff free models with token rotation. ToS-gray free-tier abuse — Constitution conflict; we run paid OpenCode Go. Filed for audit only. Added 2026-08-12 |
+
+### RESEARCH & SPECIALIZED
+
+| Repo | Verdict | Tags | Why |
+|---|---|---|---|
+| baidu/Unlimited-OCR | **High Priority** | Revenue Path | 23.5K★ one-shot long-horizon document parsing OCR (MIT, Python). Document digitization services; verify Persian script support. Added 2026-08-12 |
+| HKUDS/DeepTutor | **High Priority** | Revenue Path | 35K★ lifelong personalized tutoring agent (Apache-2.0, Python). Edtech lane — tutoring SaaS, strong Iranian market angle (Farsi tutors). Added 2026-08-12 |
+| walkinglabs/hands-on-modern-rl | **Reference** | - | 3.9K★ open RL curriculum: basics → LLM alignment → RLVR → agentic systems (license unstated). Learning lane for our agent evolution. Added 2026-08-12 |
+
+*Skipped, not filed: github/semantic (archived 2025, Haskell, dead).*
+
+
+*Updated: 2026-08-12 by Athena Miro*
+*Public mirror: https://github.com/athenamiro/miro-repo-arsenal (sanitized copy — internal state & paths stay local only)*
 *For: The Miro Family*
 *Next review: When new repos added or deployment decisions made*
