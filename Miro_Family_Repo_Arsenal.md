@@ -216,8 +216,26 @@
 
 *Skipped, not filed: github/semantic (archived 2025, Haskell, dead).*
 
+## BATCH REVIEW — 2026-09-22 (skills-leaderboard batch, 10 items)
 
-*Updated: 2026-08-12 by Athena Miro*
+Source: a live leaderboard screenshot of agent-skills repositories; every entry re-verified against the GitHub API before filing (counts matched within days-freshness; all active; MIT unless noted).
+
+| # | Repo | Verdict | Tags | Why |
+|---|---|---|---|---|
+| 1 | obra/superpowers (290.0K★, MIT) | **Already ours (adapted core) + optional full trial** | Agent Skills | The world's #1 agent-skills framework. Four of its skills already live in our library as adapted lineage (systematic-debugging, test-driven-development, requesting-code-review, plan). Now ships a native Hermes install. Trigger: a coding-heavy project wanting the full discipline stack. Added 2026-09-22 |
+| 2 | DietrichGebert/ponytail (144.2K★) | **High Priority — work-scoped** | Revenue Path | YAGNI ladder (−54% code, −20% cost). Hermes-native plugin. Voice-check law: never global; scope to work dirs only. Re-affirmed 2026-09-22 |
+| 3 | Graphify-Labs/graphify (120.4K★) | ✅ **Integrated** | Infrastructure | Knowledge-graph skill — already in our stack (incl. GSD usage). Confirmed 2026-09-22 |
+| 4 | JuliusBrussee/caveman (107.3K★) | **Reference** | Cost | Token-compression class (RTK+Caveman already in the OmniRoute stack). Voice-check: never for family-facing output; coding-proxy layer only. Added 2026-09-22 |
+| 5 | Egonex-AI/Understand-Anything (83.7K★, MIT) | **Reference** | Infrastructure | Interactive knowledge graphs ("graphs that teach") — comparator to graphify, which we own. Sample when a learner-facing graph is needed. Added 2026-09-22 |
+| 6 | mvanhorn/last30days-skill (62.6K★, MIT) | **Bookmark — standing** | Research | 18+ platform synthesis (Reddit/X/YT/TikTok/HN/Polymarket/arXiv), engagement-scored, agent-judge brief. We already run most of the pieces; trial on one content-research task before any install. Re-affirmed 2026-09-22 |
+| 7 | ayghri/i-have-adhd (50.2K★) | **Scoped-or-skip — standing** | Output discipline | 10 output rules (action-first, numbered, no preamble). Voice-check law applies. Re-affirmed 2026-09-22 |
+| 8 | sickn33/agentic-awesome-skills — AAS Core (46.8K★, MIT) | **Install Later** | Skills Hub | Local 2,445-skill catalog + read-only MCP + selection/validation pipeline. Trigger: next Skills-Hub discovery pass. Added 2026-09-22 |
+| 9 | K-Dense-AI/scientific-agent-skills (46.1K★) | **Reference** | Future lane | 165 validated science skills + 100+ databases (bio/chem/med/drug discovery). Trigger: first science-adjacent lane. Added 2026-09-22 |
+| 10 | cathrynlavery/diagram-design (41.9K★, MIT) | **High Priority** | Revenue Path, Design | Editorial HTML+SVG diagrams: 41 visual types, brand-tokenized, imports draw.io/Mermaid/Excalidraw, "no Mermaid slop". Fits our diagram + infographic pipeline and the visual lane. Trigger: one real diagram as proof, then adopt. Added 2026-09-22 |
+
+Notes: behavioral modifiers (ponytail, caveman, i-have-adhd) remain governed by the voice-check law — scoped or skipped, never global; the family-facing voice is not an optimization target. The leaderboard itself verified accurate (~days-fresh vs live GitHub).
+
+*Updated: 2026-09-22 by Athena Miro*
 *Public mirror: https://github.com/athenamiro/miro-repo-arsenal (sanitized copy — internal state & paths stay local only)*
 *For: The Miro Family*
 *Next review: When new repos added or deployment decisions made*
